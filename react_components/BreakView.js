@@ -5,7 +5,7 @@ import React from 'react';
 const BreakView = (props) => {
   const label = props.breakLabel;
   const className = props.breakClassName || 'break';
-  const linkClassName = props.pageLinkClassName;
+  const linkClassName = props.breakLinkClassName;
   const onClick = props.onClick;
 
   return (
